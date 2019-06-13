@@ -7,7 +7,7 @@
     "noImplicitAny": true,
     "moduleResolution": "node",
     "sourceMap": true,
-    "outDir": "socket/dist",
+    "outDir":  "dist",
     "baseUrl": "..",
     "paths": {
       "*": [
@@ -16,6 +16,6 @@
     }
   },
   "include": [
-    "socket/src/**/*"
+    "src/**/*"
   ]
 }

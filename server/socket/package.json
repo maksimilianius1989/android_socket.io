@@ -19,7 +19,7 @@
   "main": "dist/server.js",
   "license": "MIT",
   "scripts": {
-    "run": "node dist/server.js"
+    "server": "node dist/server.js"
   },
-  "author": ""
+  "author": "vimax"
 }
