@@ -19,7 +19,8 @@
   "main": "dist/server.js",
   "license": "MIT",
   "scripts": {
-    "server": "node dist/server.js"
+    "b": "docker-compose down && docker-compose --verbose up -d --build && docker-compose ps && docker-compose logs -f --tail=5",
+    "r": "docker-compose restart app && docker-compose ps && docker-compose logs -f --tail=5"
   },
   "author": "vimax"
 }
