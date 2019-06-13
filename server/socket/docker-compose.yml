@@ -4,7 +4,7 @@ services:
     command: ["node", "dist/server.js"]
     container_name: road_service_node
     restart: always
-    build: .
+    build: ..
     ports:
       - "3001:3000"
     links:
